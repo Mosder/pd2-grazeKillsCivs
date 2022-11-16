@@ -1,0 +1,13 @@
+{
+	"name":"Graze DOES kill civs",
+	"description":"Makes graze capable of killing civs again",
+	"author":"Mosder",
+	"version":"1",
+	"blt_version": 2,
+	"hooks" : [
+		{	
+			"hook_id":"lib/managers/player/snipergrazedamage",
+		 	"script_path":"murder.lua"
+		}
+	]
+}
